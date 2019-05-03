@@ -1,0 +1,71 @@
+html, body {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background: radial-gradient(circle at center, #fafafa 50%, #C0C0C0 90%);
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  margin: 20px;
+  font-family: 'Bree Serif', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 4rem;
+  letter-spacing: 4px;
+  background-image: linear-gradient(to right,#cb007d, #6b00bd);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+h2 {
+  text-transform: capitalize;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  background-image: linear-gradient(to right,#02b399, #00473d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+#mainLogo {
+  border-radius: 50%;
+  height: 40vh;
+}
+#instaLogo {
+  height: 3rem;
+  padding-left: 8px;
+}
+a {
+  font-family: 'Bree Serif', serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(to top,#dc8f3f, #7823bc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+  padding-bottom: 20px;
+}
+hr {
+  border: 0.3px solid #C0C0C0;
+  box-shadow: 4rem 4rem 2rem rgba(0, 0, 0, 0.2);
+  width: 40%;
+  margin-bottom: 30px;
+}
+/* #95278a
+#02b399 */
+@media (max-width: 600px) {
+  h1 {
+    padding-top: 20px;
+    font-size: 3rem;
+  }
+}
