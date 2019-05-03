@@ -22,6 +22,8 @@ h1 {
   background-clip: text;
   color: transparent;
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+  animation-name: moveFromLeft;
+  animation-duration: 1s;
 }
 h2 {
   text-transform: capitalize;
@@ -32,6 +34,8 @@ h2 {
   background-clip: text;
   color: transparent;
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+  animation-name: moveFromBottom;
+  animation-duration: 1s;
 }
 #mainLogo {
   border-radius: 50%;
@@ -54,6 +58,10 @@ a {
   color: transparent;
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
   padding-bottom: 20px;
+  transition: .4s all;
+}
+a:hover {
+  transform: scale(1.1) translateX(-2px);
 }
 hr {
   border: 0.3px solid #C0C0C0;
@@ -63,9 +71,35 @@ hr {
 }
 /* #95278a
 #02b399 */
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   h1 {
     padding-top: 20px;
     font-size: 3rem;
   }
+}
+
+@keyframes moveFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-5rem); }
+  80% {
+    transform: translateX(.5rem); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); }
+  }
+
+@keyframes moveFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+  80% {
+    transform: translateY(-.5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
 }
