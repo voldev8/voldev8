@@ -10,6 +10,7 @@ div {
   align-items: center;
 }
 h1 {
+  opacity:0;
   margin: 20px;
   font-family: 'Bree Serif', serif;
   font-weight: 700;
@@ -24,8 +25,11 @@ h1 {
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
   -webkit-animation: moveFromLeft 1.5s 1s;
   animation: moveFromLeft 1.5s 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 h2 {
+  opacity: 0;
   text-transform: capitalize;
   font-family: 'Dancing Script', cursive;
   font-size: 3rem;
@@ -36,6 +40,8 @@ h2 {
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
   -webkit-animation: moveFromBottom 1.5s 1s;
   animation: moveFromBottom 1.5s 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 #mainLogo {
   border-radius: 50%;
