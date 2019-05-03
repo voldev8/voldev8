@@ -23,7 +23,7 @@ h1 {
   color: transparent;
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
   animation-name: moveFromLeft;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
 }
 h2 {
   text-transform: capitalize;
@@ -35,7 +35,7 @@ h2 {
   color: transparent;
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
   animation-name: moveFromBottom;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
 }
 #mainLogo {
   border-radius: 50%;
