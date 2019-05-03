@@ -22,10 +22,8 @@ h1 {
   background-clip: text;
   color: transparent;
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
-  -webkit-animation-name: moveFromLeft;
-  -webkit-animation-duration: 1.5s;
-  animation-name: moveFromLeft;
-  animation-duration: 1.5s;
+  -webkit-animation: moveFromLeft 1.5s 1s;
+  animation: moveFromLeft 1.5s 1s;
 }
 h2 {
   text-transform: capitalize;
@@ -36,10 +34,8 @@ h2 {
   background-clip: text;
   color: transparent;
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
-  -webkit-animation-name: moveFromBottom;
-  -webkit-animation-duration: 1.5s;
-  animation-name: moveFromBottom;
-  animation-duration: 1.5s;
+  -webkit-animation: moveFromBottom 1.5s 1s;
+  animation: moveFromBottom 1.5s 1s;
 }
 #mainLogo {
   border-radius: 50%;
@@ -49,17 +45,19 @@ h2 {
   height: 3rem;
   padding-left: 8px;
 }
-/* a {
+a {
   font-family: 'Bree Serif', serif;
   font-weight: 700;
   text-decoration: none;
   font-size: 2rem;
   display: flex;
   align-items: center;
+  -webkit-background-image: linear-gradient(to top,#dc8f3f, #7823bc);
   background-image: linear-gradient(to top,#dc8f3f, #7823bc);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  -webkit-text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
   padding-bottom: 20px;
   -webkit-transition: .4s all;
@@ -70,7 +68,7 @@ a:hover {
   -webkit-transform: scale(1.1) translateX(-2px);
   -o-transform: scale(1.1) translateX(-2px);
   transform: scale(1.1) translateX(-2px);
-} */
+} 
 hr {
   border: 0.3px solid #C0C0C0;
   box-shadow: 4rem 4rem 2rem rgba(0, 0, 0, 0.2);
