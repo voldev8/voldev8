@@ -70,11 +70,11 @@ a {
   -o-transition: .4s all;
   transition: .4s all;
 }
-a:hover {
+/* a:hover {
   -webkit-transform: scale(1.1) translateX(-2px);
   -o-transform: scale(1.1) translateX(-2px);
   transform: scale(1.1) translateX(-2px);
-} 
+}  */
 hr {
   border: 0.3px solid #C0C0C0;
   box-shadow: 4rem 4rem 2rem rgba(0, 0, 0, 0.2);
