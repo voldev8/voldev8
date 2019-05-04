@@ -168,8 +168,10 @@ hr {
   h2 {
     font-size: 2rem;
   }
-  #instaText {
-    display: block;
-    padding-bottom: 6px;
+  a {
+    display: inline-block;
+  }
+  #instaLogo {
+    vertical-align: middle;
   }
 }
