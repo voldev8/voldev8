@@ -65,14 +65,12 @@ a {
   font-weight: 700;
   text-decoration: none;
   font-size: 2rem;
-  display: -webkit-box;
+/*   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
-  flex: 1 1;
-  -webkit-flex: 1 1 100%;
+          align-items: center; */
   background-image: -webkit-gradient(linear,left bottom, left top,from(#dc8f3f), to(#7823bc));
   background-image: linear-gradient(to top,#dc8f3f, #7823bc);
   -webkit-background-clip: text;
