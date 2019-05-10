@@ -23,6 +23,7 @@ div {
   height: 40vh;
 }
 h2 {
+  text-align: center;
   font-family: 'Calligraffitti', cursive;
   font-size: 3rem;
   background-image: -webkit-gradient(linear,left top, right top,from(#02b399), to(#00473d));
