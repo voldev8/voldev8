@@ -17,28 +17,13 @@ div {
       -ms-flex-align: center;
           align-items: center;
 }
-h1 {
-  margin: 20px;
-  font-family: 'Bree Serif', serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 4rem;
-  letter-spacing: 4px;
-  background-image: -webkit-gradient(linear,left top, right top,from(#cb007d), to(#6b00bd));
-  background-image: linear-gradient(to right,#cb007d, #6b00bd);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
-  -webkit-animation: moveFromLeft 1.5s 1s;
-          animation: moveFromLeft 1.5s 1s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+#mainLogo {
+  margin-top: 15vh;
+  border-radius: 50%;
+  height: 40vh;
 }
 h2 {
-  text-transform: capitalize;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Calligraffitti', cursive;
   font-size: 3rem;
   background-image: -webkit-gradient(linear,left top, right top,from(#02b399), to(#00473d));
   background-image: linear-gradient(to right,#02b399, #00473d);
@@ -51,32 +36,33 @@ h2 {
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
-#mainLogo {
-  border-radius: 50%;
-  height: 40vh;
+h2 .quotes {
+  font-size: 2rem;
 }
-#instaLogo {
-  height: 3rem;
-  padding-left: 8px;
+hr {
+  margin-bottom: 30px;
+  width: 40%;
+  border: 0.3px solid #C0C0C0;
+  -webkit-box-shadow: 4rem 4rem 2rem rgba(0, 0, 0, 0.2);
+          box-shadow: 4rem 4rem 2rem rgba(0, 0, 0, 0.2);
 }
 a {
-  padding-bottom: 20px;
   font-family: 'Bree Serif', serif;
   font-weight: 700;
-  text-decoration: none;
   font-size: 2rem;
+  background-image: -webkit-gradient(linear,left bottom, left top,from(#dc8f3f), to(#7823bc));
+  background-image: linear-gradient(to top,#dc8f3f, #7823bc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  padding-top: 0px;
+  text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  flex-basis: 50%;
-  background-image: -webkit-gradient(linear,left bottom, left top,from(#dc8f3f), to(#7823bc));
-  background-image: linear-gradient(to top,#dc8f3f, #7823bc);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
   -webkit-transition: .4s all;
   transition: .4s all;
@@ -85,12 +71,9 @@ a:hover {
   -webkit-transform: scale(1.1) translateY(-10px);
           transform: scale(1.1) translateY(-10px);
 }
-hr {
-  margin-bottom: 30px;
-  width: 40%;
-  border: 0.3px solid #C0C0C0;
-  -webkit-box-shadow: 4rem 4rem 2rem rgba(0, 0, 0, 0.2);
-          box-shadow: 4rem 4rem 2rem rgba(0, 0, 0, 0.2);
+#instaLogo {
+  height: 3rem;
+  padding-left: 8px;
 }
 
 @-webkit-keyframes moveFromLeft {
@@ -158,15 +141,15 @@ hr {
 }
 
 @media only screen and (max-width: 600px) {
-  h1 {
-    padding-top: 0px;
-    font-size: 3rem;
-  }
+
   #mainLogo {
     height: 35vh;
   }
   h2 {
     font-size: 2rem;
+  }
+  h2 .quotes {
+    font-size: 1.5rem;
   }
   a {
     display: inline-block;
@@ -177,11 +160,8 @@ hr {
 }
 
 @media only screen and (max-width: 400px) {
-  h1 {
-    padding-top: 0px;
-    font-size: 2.5rem;
-  }
+
   h2 {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
   }
 }
