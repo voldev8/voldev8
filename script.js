@@ -1,10 +1,10 @@
 var whySukha_btn = document.getElementById('whySukha_btn');
-var topLayer = document.getElementById('topLayer');
-var close = document.getElementById('close');
+var whySukha = document.getElementById('whySukha');
+var whySukha_close = document.getElementById('whySukha_close');
 
 whySukha_btn.addEventListener('click', ()=>{
-  topLayer.style.visibility = "visible";
+  whySukha.style.visibility = "visible";
 });
-close.addEventListener('click', ()=>{
-  topLayer.style.visibility = "collapse";
-})
+whySukha_close.addEventListener('click', ()=>{
+  whySukha.style.visibility = "collapse";
+});

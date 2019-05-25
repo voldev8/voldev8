@@ -102,7 +102,9 @@ p {
   font-weight: 700;
   cursor: pointer;
 }
-#topLayer {
+
+/*whySukha*/
+#whySukha {
   margin: 0;
   padding: 0;
   visibility: collapse;
@@ -112,16 +114,9 @@ p {
   width: 100%;
   background-image: -webkit-gradient(linear,left top, right bottom,from(#dc8f3f), to(#7823bc));
 }
-#whySukha {
-  position: absolute;
-  top: 20vh;
-  padding: 40px;
-  background-color: #F8F8F8;
-  border-radius: 14px;
-  text-align: left;
-}
-#close {
+#whySukha_close {
   font-size: 1.4rem;
+  padding-bottom: 3px;
   position: absolute;
   top: 16vh;
   right: 20vw;
@@ -130,10 +125,20 @@ p {
   border: none;
   border-radius: 50%;
 }
-#close:hover {
+#whySukha_close:hover {
   cursor: pointer;
   box-shadow: 0 0 12px #2F4F4F;
 }
+#whySukha_para {
+  position: absolute;
+  top: 20vh;
+  padding: 40px;
+  background-color: #F8F8F8;
+  border-radius: 14px;
+  text-align: left;
+}
+
+/*animations*/
 @-webkit-keyframes moveFromLeft {
   0% {
     opacity: 0;
@@ -148,7 +153,6 @@ p {
             transform: translateX(0);
   }
 }
-
 @keyframes moveFromLeft {
   0% {
     opacity: 0;
@@ -163,7 +167,6 @@ p {
             transform: translateX(0);
   }
 }
-
 @-webkit-keyframes moveFromBottom {
   0% {
     opacity: 0;
@@ -180,7 +183,6 @@ p {
             transform: translateY(0);
   }
 }
-
 @keyframes moveFromBottom {
   0% {
     opacity: 0;
@@ -210,6 +212,8 @@ p {
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
+
+/*responsive*/
 @media only screen and (max-width: 600px) {
 
   #mainLogo {
@@ -227,6 +231,21 @@ p {
   }
   #instaLogo {
     vertical-align: middle;
+  }
+  p {
+    font-size: 1rem;
+    width: 90%;
+  }
+  #whySukha_para {
+    font-size: 1rem;
+    top: 5vh;
+    border-radius: 6px;
+    padding: 14px;
+  }
+  #whySukha_close {
+    font-size: 1rem;
+    top: 3vh;
+    right: 5vw;
   }
 }
 
