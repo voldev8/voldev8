@@ -123,6 +123,7 @@ p {
   right: 20vw;
   text-decoration: none;
   color: #2F4F4F;
+  background-color: #fff;
   border: none;
   border-radius: 50%;
 }
@@ -244,9 +245,9 @@ p {
     padding: 14px;
   }
   #whySukha_close {
-    font-size: 1rem;
+    font-size: 1.2rem;
     top: 3vh;
-    right: 5vw;
+    right: 3vw;
   }
 }
 
