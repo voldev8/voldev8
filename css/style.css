@@ -48,7 +48,7 @@ hr {
   -webkit-box-shadow: 4rem 4rem 2rem rgba(0, 0, 0, 0.2);
           box-shadow: 4rem 4rem 2rem rgba(0, 0, 0, 0.2);
 }
-.main>a {
+a {
   margin-top: 2rem;
   font-family: 'Bree Serif', serif;
   font-weight: 700;
@@ -70,7 +70,7 @@ hr {
   -webkit-transition: .4s all;
   transition: .4s all;
 }
-.main>a:hover {
+a:hover {
   animation: shake .8s;
 }
 #instaLogo {
@@ -249,13 +249,13 @@ p {
   }
   #whySukha_para {
     font-size: 1rem;
-    top: 10vh;
+    top: 12vh;
     border-radius: 6px;
     padding: 28px 14px;
   }
   #whySukha_close {
     font-size: 1rem;
-    top: 3vh;
+    top: 5vh;
     right: 3vw;
   }
 }
