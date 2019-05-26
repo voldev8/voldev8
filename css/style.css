@@ -48,7 +48,7 @@ hr {
   -webkit-box-shadow: 4rem 4rem 2rem rgba(0, 0, 0, 0.2);
           box-shadow: 4rem 4rem 2rem rgba(0, 0, 0, 0.2);
 }
-a {
+#followUs {
   margin-top: 2rem;
   font-family: 'Bree Serif', serif;
   font-weight: 700;
@@ -70,7 +70,7 @@ a {
   -webkit-transition: .4s all;
   transition: .4s all;
 }
-a:hover {
+#followUs:hover {
   animation: shake .8s;
 }
 #instaLogo {
@@ -96,6 +96,10 @@ p {
   background-color: #fff;
   border: 2px solid #942d88;
   transition: all .5s ease-in;
+}
+#whySukha_btn a {
+  text-decoration: none;
+  color: inherit;
 }
 #whySukha_btn:hover {
   color: #fff;
