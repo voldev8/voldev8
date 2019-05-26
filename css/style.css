@@ -124,7 +124,7 @@ p {
   font-size: 1.4rem;
   padding-bottom: 3px;
   position: absolute;
-  top: 16vh;
+  top: 12vh;
   right: 20vw;
   text-decoration: none;
   color: #2F4F4F;
@@ -137,13 +137,11 @@ p {
   box-shadow: 0 0 12px #2F4F4F;
 }
 #whySukha_card {
-  top: 50%;
-  left: 50%;
-  display: table;
+  /**/
 }
 #whySukha_para {
   position: absolute;
-  top: 20vh;
+  top: 15vh;
   padding: 60px 40px;
   background-color: #F8F8F8;
   border-radius: 14px;
