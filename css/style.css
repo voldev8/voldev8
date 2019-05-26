@@ -86,7 +86,7 @@ p {
 }
 #whySukha_btn {
   margin-top: 20px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   font-family: "Ramabhadra", sans-serif;
   font-size: 1.1rem;
   font-weight: 600;
@@ -105,7 +105,7 @@ p {
 }
 
 /*whySukha*/
-#whySukha {
+.whySukha {
   margin: 0;
   padding: 0;
   visibility: collapse;
@@ -114,6 +114,7 @@ p {
   height: 100%;
   width: 100%;
   background-image: -webkit-gradient(linear,left top, right bottom,from(#dc8f3f), to(#7823bc));
+  box-shadow: 0 0 8px #2F4F4F;
 }
 #whySukha_close {
   font-size: 1.4rem;
@@ -131,13 +132,17 @@ p {
   cursor: pointer;
   box-shadow: 0 0 12px #2F4F4F;
 }
+#whySukha_card {
+  /**/
+}
 #whySukha_para {
   position: absolute;
   top: 20vh;
-  padding: 40px;
+  padding: 60px 40px;
   background-color: #F8F8F8;
   border-radius: 14px;
   text-align: left;
+  line-height: 1.3;
 }
 
 /*animations*/
@@ -240,12 +245,12 @@ p {
   }
   #whySukha_para {
     font-size: 1rem;
-    top: 5vh;
+    top: 10vh;
     border-radius: 6px;
-    padding: 14px;
+    padding: 28px 14px;
   }
   #whySukha_close {
-    font-size: 1.2rem;
+    font-size: 1rem;
     top: 3vh;
     right: 3vw;
   }
