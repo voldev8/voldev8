@@ -38,7 +38,7 @@ hr {
   border: 0.3px solid #C0C0C0;
   box-shadow: 4rem 4rem 2rem rgba(0, 0, 0, 0.2);
 }
-.main a {
+a {
   margin-top: 2rem;
   font-family: 'Bree Serif', serif;
   font-weight: 700;
@@ -54,7 +54,7 @@ hr {
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
   transition: .4s all;
 }
-.main a:hover {
+a:hover {
   -webkit-animation: shake .8s;
           animation: shake .8s;
 }
