@@ -48,7 +48,7 @@ hr {
   -webkit-box-shadow: 4rem 4rem 2rem rgba(0, 0, 0, 0.2);
           box-shadow: 4rem 4rem 2rem rgba(0, 0, 0, 0.2);
 }
-.main a {
+.main>a {
   margin-top: 2rem;
   font-family: 'Bree Serif', serif;
   font-weight: 700;
@@ -70,7 +70,7 @@ hr {
   -webkit-transition: .4s all;
   transition: .4s all;
 }
-.main a:hover {
+.main>a:hover {
   animation: shake .8s;
 }
 #instaLogo {
@@ -137,7 +137,9 @@ p {
   box-shadow: 0 0 12px #2F4F4F;
 }
 #whySukha_card {
-  /**/
+  top: 50%;
+  left: 50%;
+  display: table;
 }
 #whySukha_para {
   position: absolute;
